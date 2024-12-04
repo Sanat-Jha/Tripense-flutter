@@ -10,7 +10,7 @@ Future<dynamic> fetchData(String url, Map<String, dynamic> data) async {
   try {
     // Make the POST request
     final response = await http.post(
-      Uri.parse("http://127.0.0.1:8000/api/" + url),
+      Uri.parse("https://tripense.onrender.com/api/" + url),
       headers: {
         'Content-Type': 'application/json',
         'X-Api-Key': 'qwertyuioplkjhgfdsazxcvbnm', // Optional: Add your API key if needed
