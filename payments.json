@@ -1,0 +1,18 @@
+[
+    {
+        "shop": "shop1",
+        "member": "member1",
+        "amount":100
+    },
+    {
+        "shop": "shop2",
+        "member": "member2",
+        "amount":200
+    },
+    {
+        "shop": "shop3",
+        "member": "member3",
+        "amount":300
+    }
+
+]
